@@ -1,0 +1,55 @@
+package com.kodewala.junit;
+import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.*;
+
+import org.junit.jupiter.api.Test;
+
+class UserServiceTest {
+
+    @Test
+    void registerUser_success() {
+
+        UserRepository repository = mock(UserRepository.class);
+
+        User user = new User(null, "Sunil", "sunil@gmail.com", null);
+
+        when(repository.existsByEmail("sunil@gmail.com"))
+                .thenReturn(false);
+
+        when(repository.save(any(User.class)))
+                .thenReturn(new User(1L, "Sunil", "sunil@gmail.com", "ACTIVE"));
+
+        UserService service = new UserService(repository);
+
+        User result = service.registerUser(user);
+
+        assertNotNull(result.getId());
+        assertEquals("ACTIVE", result.getStatus());
+        assertEquals("sunil@gmail.com", result.getEmail());
+
+        verify(repository).existsByEmail("sunil@gmail.com");
+        verify(repository).save(any(User.class));
+    }
+
+    @Test
+    void registerUser_emailAlreadyExists_throwException() {
+
+        UserRepository repository = mock(UserRepository.class);
+
+        User user = new User(null, "Sunil", "sunil@gmail.com", null);
+
+        when(repository.existsByEmail("sunil@gmail.com"))
+                .thenReturn(true);
+
+        UserService service = new UserService(repository);
+
+        RuntimeException exception =
+                assertThrows(RuntimeException.class,
+                        () -> service.registerUser(user));
+
+        assertEquals("Email already exists", exception.getMessage());
+
+        verify(repository).existsByEmail("sunil@gmail.com");
+        verify(repository, never()).save(any(User.class));
+    }
+}

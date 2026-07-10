@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;interface_.Driver&apos; to &apos;IBanking&apos;&#x0A;- Original project: &apos;interface_&apos;&#x0A;- Original element: &apos;interface_.Driver&apos;&#x0A;- Renamed element: &apos;interface_.IBanking&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Driver&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;interface_{Driver.java[Driver" matchStrategy="1" name="IBanking" qualified="false" references="true" similarDeclarations="false" stamp="1777346706908" textual="false" version="1.0"/>
+</session>

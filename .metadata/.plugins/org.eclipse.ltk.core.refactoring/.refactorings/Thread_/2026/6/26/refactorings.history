@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;thread_day5.BankAccount1&apos; to &apos;BankAccount2&apos;&#x0A;- Original project: &apos;Thread_&apos;&#x0A;- Original element: &apos;thread_day5.BankAccount1&apos;&#x0A;- Renamed element: &apos;thread_day5.BankAccount2&apos;&#x0A;- Update references to refactored element&#x0A;- Rename similarly named elements&#x0A;- Update fully qualified names in &apos;*&apos; files&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BankAccount1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;thread_day5{Driver1.java[BankAccount1" matchStrategy="1" name="BankAccount2" patterns="*" qualified="true" references="true" similarDeclarations="true" stamp="1782367845936" textual="true" version="1.0"/>
+</session>

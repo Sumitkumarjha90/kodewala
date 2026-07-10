@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/Users/sumit/Desktop/Eclipse_java"/>
+			<item value="/Users/sumit/Desktop/Eclipse_java/BankingManagementSystem"/>
+			<item value="/Users/sumit/Desktop/Eclipse_java/Account"/>
+			<item value="/Users/sumit/Desktop/Eclipse_java/Executor"/>
+			<item value="/Users/sumit/Desktop/Eclipse_java/Collection"/>
+			<item value="/Users/sumit/Desktop/Eclipse_java/Home_Practice"/>
+			<item value="/Users/sumit/Desktop/Eclipse_java/ExploreConst"/>
+			<item value="/Users/sumit/Desktop/Eclipse_java/Constructor"/>
+			<item value="/Users/sumit/Desktop/Eclipse_java/Exception"/>
+			<item value="/Users/sumit/Desktop/Eclipse_java/AIHelperPlugin"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.kodewala.junittest"/>
+			<item value="com.kodewala.junit"/>
+		</list>
+		<list key="groupId">
+			<item value="com.kodewala"/>
+		</list>
+		<list key="artifactId">
+			<item value="junit_test"/>
+			<item value="5-junit"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

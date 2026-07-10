@@ -1,0 +1,12 @@
+package com.kodewala.jdbc;
+
+import java.sql.SQLException;
+
+public class App 
+{
+    public static void main( String[] args ) throws ClassNotFoundException, SQLException
+    {
+        PaymentService pay=new PaymentService();
+        pay.getAllPayments("hold");
+    }
+}

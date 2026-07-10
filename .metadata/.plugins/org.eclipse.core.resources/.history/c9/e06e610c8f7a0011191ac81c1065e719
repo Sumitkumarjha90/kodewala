@@ -1,0 +1,9 @@
+package com.kodewala.customer;
+
+public class Customer {
+	
+	String Normal;
+	String Premium;
+	
+
+}
