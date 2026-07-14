@@ -35,6 +35,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.kodewala"/>
 			<item value="com.kodewala.jdbc"/>
 			<item value="com.kodewala.junittest"/>
 			<item value="com.kodewala.junit"/>
@@ -43,6 +44,7 @@
 			<item value="com.kodewala"/>
 		</list>
 		<list key="artifactId">
+			<item value="jdbc-commit-rollback"/>
 			<item value="jdbc_day1"/>
 			<item value="junit_test"/>
 			<item value="5-junit"/>
