@@ -44,6 +44,7 @@
 			<item value="com.kodewala"/>
 		</list>
 		<list key="artifactId">
+			<item value="jdbc-preparestmt"/>
 			<item value="jdbc-commit-rollback"/>
 			<item value="jdbc_day1"/>
 			<item value="junit_test"/>

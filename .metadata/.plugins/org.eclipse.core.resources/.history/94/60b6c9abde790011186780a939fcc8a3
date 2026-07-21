@@ -1,5 +1,0 @@
-package com.kodewala.junit;
-
-public @interface Test {
-
-}
