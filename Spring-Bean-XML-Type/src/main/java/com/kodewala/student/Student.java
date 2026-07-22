@@ -10,7 +10,7 @@ public class Student {
 	
 	public void displayStudentInfo() {
 		
-		System.out.println("this will work and display the student info ");
+		//System.out.println("this will work and display the student info ");
 		
 		System.out.println("[name=" + name + ", id=" + id + ", course=" + course + "]");
 		

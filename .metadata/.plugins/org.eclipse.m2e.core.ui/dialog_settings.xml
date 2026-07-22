@@ -36,14 +36,19 @@
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
 			<item value="com.kodewala"/>
+			<item value="com.kodewala.user"/>
 			<item value="com.kodewala.jdbc"/>
 			<item value="com.kodewala.junittest"/>
 			<item value="com.kodewala.junit"/>
 		</list>
 		<list key="groupId">
 			<item value="com.kodewala"/>
+			<item value="com.kodewala.user"/>
 		</list>
 		<list key="artifactId">
+			<item value="Spring-bean-Java-Type"/>
+			<item value="Spring-bean1"/>
+			<item value="Spring-Bean-XML-Type"/>
 			<item value="jdbc-preparestmt"/>
 			<item value="jdbc-commit-rollback"/>
 			<item value="jdbc_day1"/>

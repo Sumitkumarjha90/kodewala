@@ -9,7 +9,7 @@ public class App
 {
     public static void main( String[] args )
     {
-       ApplicationContext context = new ClassPathXmlApplicationContext("com/kodewala/user/beans.xml");
+       ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
        
        
        Student student =(Student)context.getBean("obj");
@@ -21,5 +21,7 @@ public class App
        student.setId("A123");
        student.setName("Sumit");
        student.displayStudentInfo();
+       
     }
+    
 }
