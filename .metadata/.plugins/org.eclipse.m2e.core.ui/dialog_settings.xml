@@ -46,6 +46,7 @@
 			<item value="com.kodewala.user"/>
 		</list>
 		<list key="artifactId">
+			<item value="Spring-Bean-Annotation-Type"/>
 			<item value="Spring-bean-Java-Type"/>
 			<item value="Spring-bean1"/>
 			<item value="Spring-Bean-XML-Type"/>

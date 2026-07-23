@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!-- bean definitions here -->
-    
-    <bean class="com.kodewala.emp.Emp" id="emp">
-    
-    <property name="name" value="Sumit"/>
-    <property name="salary" value="40000" />
-    <property name="empId" value="S123" />
-    
-    
-    </bean>
+	<!-- bean definitions here -->
+
+	<bean class="com.kodewala.emp.Emp" id="emp">
+
+		<property name="name" value="Sumit" />
+		<property name="salary" value="40000" />
+		<property name="empId" value="S123" />
+
+
+	</bean>
+
+	<bean class="com.kodewala.emp.Student" id="student">
+		<property name="name" value="Aman" />
+		<property name="id" value="S123" />
+
+	</bean>
+
+	<bean class="com.kodewala.emp.Person" id="person">
+
+		<property name="personName" value="Sumit" />
+
+		<property name="address" value="S123" />
+
+	</bean>
+
+	<bean class="com.kodewala.emp.Customer" id="cus">
+
+		<property name="name" value="Raj" />
+		<property name="id" value="R123" />
+
+	</bean>
 
 </beans>
