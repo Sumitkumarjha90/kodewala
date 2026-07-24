@@ -4,6 +4,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import com.kodewala.bean.Account;
+import com.kodewala.bean.Person;
 import com.kodewala.config.SpringConfig;
 
 public class App 
@@ -15,5 +16,12 @@ public class App
         Account account  =context.getBean(Account.class);
         
         account.displayAccountInfo();
+        
+        System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        
+        Person per = context.getBean(Person.class);
+        per.displayPersonInfo();
+        
+        
     }
 }
