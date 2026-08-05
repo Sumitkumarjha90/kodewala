@@ -36,6 +36,7 @@
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
 			<item value="com.amazon"/>
+			<item value="com.irctc"/>
 			<item value="com.amazon.Spring_Multiple_Bean"/>
 			<item value="com.kodewala"/>
 			<item value="com.kodewala.user"/>
@@ -45,10 +46,14 @@
 		</list>
 		<list key="groupId">
 			<item value="com.amazon"/>
+			<item value="com.irctc"/>
 			<item value="com.kodewala"/>
 			<item value="com.kodewala.user"/>
 		</list>
 		<list key="artifactId">
+			<item value="amazon-order-service"/>
+			<item value="irctc-pnr-check"/>
+			<item value="percel-order"/>
 			<item value="amazon-search"/>
 			<item value="Spring-Web-MVC"/>
 			<item value="Spring-Multiple-Bean"/>
@@ -61,8 +66,6 @@
 			<item value="jdbc-preparestmt"/>
 			<item value="jdbc-commit-rollback"/>
 			<item value="jdbc_day1"/>
-			<item value="junit_test"/>
-			<item value="5-junit"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
