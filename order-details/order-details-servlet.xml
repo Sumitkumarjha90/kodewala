@@ -12,9 +12,14 @@
        http://www.springframework.org/schema/mvc
        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-    <context:component-scan base-package="com.amazon"/>
+    <context:component-scan base-package="com.eatclub"/>
 
-    <mvc:annotation-driven/>
+    <bean
+		class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping">
+
+
+	</bean>
+
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 
