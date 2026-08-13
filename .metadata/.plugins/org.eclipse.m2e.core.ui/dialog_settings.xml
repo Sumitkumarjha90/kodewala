@@ -35,6 +35,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.kims"/>
+			<item value="com.eatclub"/>
 			<item value="com.amazon"/>
 			<item value="com.irctc"/>
 			<item value="com.amazon.Spring_Multiple_Bean"/>
@@ -45,12 +47,16 @@
 			<item value="com.kodewala.junit"/>
 		</list>
 		<list key="groupId">
+			<item value="com.kims"/>
+			<item value="com.eatclub"/>
 			<item value="com.amazon"/>
 			<item value="com.irctc"/>
 			<item value="com.kodewala"/>
 			<item value="com.kodewala.user"/>
 		</list>
 		<list key="artifactId">
+			<item value="kims-hospital"/>
+			<item value="order-details"/>
 			<item value="amazon-order-service"/>
 			<item value="irctc-pnr-check"/>
 			<item value="percel-order"/>
@@ -64,8 +70,6 @@
 			<item value="Spring-bean1"/>
 			<item value="Spring-Bean-XML-Type"/>
 			<item value="jdbc-preparestmt"/>
-			<item value="jdbc-commit-rollback"/>
-			<item value="jdbc_day1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -101,5 +105,18 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/sumit/Downloads/rapido-booking"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>

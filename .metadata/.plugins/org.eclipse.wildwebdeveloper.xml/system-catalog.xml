@@ -208,6 +208,7 @@
 <uri name="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702" uri="jar:file:/Applications/Eclipse.app/Contents/Eclipse/../../../../Users/sumit/.p2/pool/plugins/org.eclipse.wst.standard.schemas_1.0.800.v201901071922.jar!/xsd/ws-securitypolicy-1.2.xsd"/>
 <uri name="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200802" uri="jar:file:/Applications/Eclipse.app/Contents/Eclipse/../../../../Users/sumit/.p2/pool/plugins/org.eclipse.wst.standard.schemas_1.0.800.v201901071922.jar!/xsd/ws-securitypolicy.xsd"/>
 <uri name="http://www.w3.org/TR/xmldsig-core/xmldsig-core-schema.xsd" uri="jar:file:/Applications/Eclipse.app/Contents/Eclipse/../../../../Users/sumit/.p2/pool/plugins/org.eclipse.wst.standard.schemas_1.0.800.v201901071922.jar!/xsd/xmldsig-core-schema.xsd"/>
-<uri name="http://www.w3.org/2001/XMLSchema" uri="jar:file:/Applications/Eclipse.app/Contents/Eclipse/../../../../Users/sumit/.p2/pool/plugins/org.eclipse.xsd_2.22.0.v20251026-1727.jar!/cache/www.w3.org/2001/XMLSchema.xsd"/>
-<system systemId="http://www.w3.org/2001/xml.xsd" uri="jar:file:/Applications/Eclipse.app/Contents/Eclipse/../../../../Users/sumit/.p2/pool/plugins/org.eclipse.xsd_2.22.0.v20251026-1727.jar!/cache/www.w3.org/2001/xml.xsd"/>
+<uri name="http://www.w3.org/2001/XMLSchema" uri="jar:file:/Users/sumit/.p2/pool/plugins/org.eclipse.xsd_2.22.0.v20260311-1301.jar!/cache/www.w3.org/2001/XMLSchema.xsd"/>
+<system systemId="http://www.w3.org/2001/xml.xsd" uri="jar:file:/Users/sumit/.p2/pool/plugins/org.eclipse.xsd_2.22.0.v20260311-1301.jar!/cache/www.w3.org/2001/xml.xsd"/>
+<public publicId="-//LOG4J//DTD LOG4J//EN" uri="jar:file:/Users/sumit/.p2/pool/plugins/org.springsource.ide.eclipse.commons.ui_5.3.0.202607290145.jar!/dtd/log4j-1.2.dtd"/>
 </catalog>
