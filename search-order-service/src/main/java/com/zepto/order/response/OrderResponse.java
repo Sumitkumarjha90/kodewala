@@ -7,6 +7,8 @@ public class OrderResponse {
 	private int customerId;
 	private int productId;
 	private int quantity;
+	private String paymentMethod;
+	private String shippingAddress;
 
 	public int getId() {
 		return id;
@@ -24,8 +26,7 @@ public class OrderResponse {
 		this.orderId = orderId;
 	}
 
-	private String paymentMethod;
-	private String shippingAddress;
+
 
 	public int getCustomerId() {
 		return customerId;

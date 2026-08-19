@@ -1,7 +1,11 @@
 package com.zepto.order.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.repository.query.Param;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -20,6 +24,11 @@ public class OrderController {
 	public OrderResponse searchOrderById(@RequestParam("id") int id)
 	{
 		return  orderService.getOrderById(id);
+	}
+	
+	@GetMapping("/payment/{paymentType}")
+	public List<OrderResponse> listOrdersByPayment(@PathVariable String paymentType){
+		return orderService.listOrdersByPayment(paymentType);
 	}
 	
 }
