@@ -108,6 +108,10 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/sumit/Desktop/Eclipse_java/search-order-service"/>
+			<item value="/Users/sumit/Downloads/search-order-service"/>
+			<item value="/Users/sumit/Desktop/Eclipse_java/zepto-order-service"/>
+			<item value="/Users/sumit/Downloads/zepto-order-service"/>
 			<item value="/Users/sumit/Downloads/rapido-booking"/>
 		</list>
 		<list key="projectNameTemplate">

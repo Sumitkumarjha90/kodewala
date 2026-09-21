@@ -80,6 +80,8 @@
 		<item key="patterns" value="*"/>
 		<item key="updateSimilarElements" value="true"/>
 		<item key="updateSimilarElementsMatchStrategy" value="1"/>
+		<item key="renameGetter" value="false"/>
+		<item key="renameSetter" value="false"/>
 	</section>
 	<section name="NewAnnotationCreationWizard.dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="426"/>
@@ -157,6 +159,7 @@
 		</section>
 	</section>
 	<section name="RenameInformationPopup">
+		<item key="snap_position" value="2"/>
 	</section>
 	<section name="JarPackageWizard">
 		<item key="JarPackageWizardPage.EXPORT_CLASS_FILES" value="true"/>

@@ -21,7 +21,7 @@ public class OrderController {
 	OrderService orderService;
 	
 	@GetMapping("findOrder")
-	public OrderResponse searchOrderById(@RequestParam("id") int id)
+	public OrderResponse searchOrderById(@RequestParam int id)
 	{
 		return  orderService.getOrderById(id);
 	}
