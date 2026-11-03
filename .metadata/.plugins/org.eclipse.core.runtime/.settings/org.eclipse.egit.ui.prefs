@@ -3,6 +3,6 @@
 //BranchProjectTracker__/Users/sumit/git/repository/.git_master=<?xml version\="1.0" encoding\="UTF-8"?>\n<projects>\n<project>/CompletableFuture_thread</project>\n</projects>
 //repository_push_settings_/Users/sumit/git/repository/.git=false;false
 RepositorySearchDialogSearchPath=/Users/sumit/Desktop/Eclipse_java
-commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>added the logs</message>\n<message>add logg files</message>\n<message>added the logggin</message>\n<message>..</message>\n<message>redis added</message>\n<message>...</message>\n<message>invoice service updated</message>\n<message>invoice service</message>\n<message>updated the search by the payment method</message>\n<message>updated the search by the payment</message>\n</messages>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>updated for cicd</message>\n<message>added the logs</message>\n<message>add logg files</message>\n<message>added the logggin</message>\n<message>..</message>\n<message>redis added</message>\n<message>...</message>\n<message>invoice service updated</message>\n<message>invoice service</message>\n<message>updated the search by the payment method</message>\n</messages>
 eclipse.preferences.version=1
 repositories_view_filters=<?xml version\="1.0" encoding\="UTF-8"?>\n<FilterCache/>
