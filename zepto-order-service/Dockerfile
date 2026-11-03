@@ -1,12 +1,9 @@
-FROM eclipse-temurin:17-jdk-jammy
+FROM eclipse-temurin:17-jdk
 
 WORKDIR /app
 
-COPY target/zepto-order-service-0.0.1-SNAPSHOT.jar myapp.jar
+COPY target/*.jar app.jar
 
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar", "myapp.jar"]
-
-
-
+ENTRYPOINT ["java", "-jar", "app.jar"]
